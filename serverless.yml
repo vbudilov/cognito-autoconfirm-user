@@ -1,0 +1,15 @@
+service: cognito-autoconfirm-user
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+
+functions:
+  CognitoAutoconfirmUser:
+    handler: handler.confirm
+
+#    events:
+#      - cognitoUserPool:
+#          pool: us-east-1_Blqt2tzfe
+#          trigger: PreSignUp
+
