@@ -8,8 +8,3 @@ functions:
   CognitoAutoconfirmUser:
     handler: handler.confirm
 
-#    events:
-#      - cognitoUserPool:
-#          pool: us-east-1_Blqt2tzfe
-#          trigger: PreSignUp
-
